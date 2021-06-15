@@ -1,6 +1,7 @@
-public interface Geo{
+
+interface Geo{
     
-    public void perimetro();
     public void area();
-    
+    public void perimetro();
+
 }

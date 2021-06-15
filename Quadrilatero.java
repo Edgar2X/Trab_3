@@ -1,14 +1,16 @@
-abstract class Quadrilatero implements Geo {
+import java.util.concurrent.PriorityBlockingQueue;
+
+abstract class Quadrilatero{
     
-    private int base;
-    private int altura;
+    private float base;
+    private float altura;
     
-    public Quadrilatero(int base,int altura){
+
+    public Quadrilatero(){
         this.base = base;
         this.altura = altura;
     }
 
-    public void perimetro(){
-
-    };
+	public abstract void perimetro();
 }
+
