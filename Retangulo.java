@@ -1,14 +1,16 @@
 public class Retangulo extends Quadrilatero{
 
-    public Retangulo(int base, int altura) {
-        super(base, altura);
-        //TODO Auto-generated constructor stub
+    float base;
+    float altura;
+
+    public Retangulo(float l1, float l2) {
+        super(l1, l2, l1 ,l2);
+        this.base = l1;
+        this.altura = l2;
     }
 
-    @Override
     public void area() {
-        // TODO Auto-generated method stub
-        
+        System.out.println(base*altura);
     }
     
 }
