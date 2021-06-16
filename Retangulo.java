@@ -9,8 +9,16 @@ public class Retangulo extends Quadrilatero{
         this.altura = l2;
     }
 
+    public void getBase() {
+        System.out.println("Base: "+base);
+    }
+
+    public void getAltura() {
+        System.out.println("Altura: "+base);
+    }
+
     public void area() {
-        System.out.println(base*altura);
+        System.out.println("Área: "+base*altura);
     }
     
 }

@@ -15,7 +15,7 @@ abstract class Quadrilatero implements Geo{
     }
 
 	public void perimetro(){
-        System.out.println(l1+l2+l3+l4);
+        System.out.println("Perímetro: "+ (l1+l2+l3+l4));
     };
 }
 

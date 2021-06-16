@@ -7,11 +7,13 @@ public class Quadrado extends Quadrilatero{
         this.lado = l1;
     }
 
-    public void area() {
-       System.out.println(4*lado);
+    public void getLado(){
+        System.out.println("Lado: "+lado);
     }
 
-    
+    public void area() {
+       System.out.println("Área: " + 4*lado);
+    }
 
 }
 
